@@ -14,6 +14,15 @@ public class Stack {
         st[cursor] = x;
         cursor++;
     }
+    //2. DELETE (POP)
+    public int pop() {
+        if (cursor == 0) {
+            System.out.println("Stack underflow");
+        }
+        int value = st[cursor];
+        cursor--;
+        return value;
+    }
 
     public void List() {
         StringBuilder str = new StringBuilder();
@@ -21,5 +30,9 @@ public class Stack {
             str.append(st[i]).append(",");
         }
         System.out.println(str);
+    }
+
+    public int size() {
+        return cursor;
     }
 }
