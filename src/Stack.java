@@ -11,17 +11,14 @@ public class Stack {
         if (cursor >= st.length) {
             System.out.println("Stack overflow");
         }
-        st[cursor] = x;
-        cursor++;
+        st[cursor++] = x;
     }
     //2. DELETE (POP)
-    public int pop() {
+    public void pop() {
         if (cursor == 0) {
             System.out.println("Stack underflow");
         }
-        int value = st[cursor];
-        cursor--;
-        return value;
+        st[cursor--] = 0;
     }
 
     public void List() {
