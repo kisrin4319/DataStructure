@@ -35,4 +35,11 @@ public class Stack {
     public int size() {
         return cursor;
     }
+
+    public int peek() {
+        if (cursor == 0) {
+            return 0;
+        }
+        return st[cursor-1];
+    }
 }
