@@ -42,4 +42,8 @@ public class Stack {
         }
         return st[cursor-1];
     }
+
+    public boolean isEmpty() {
+        return cursor == 0;
+    }
 }

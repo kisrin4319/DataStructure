@@ -16,6 +16,8 @@ public class Main {
 
         st.List();
 
+        System.out.println("stack isEmpty : "+ st.isEmpty());
+
 
     }
 }
