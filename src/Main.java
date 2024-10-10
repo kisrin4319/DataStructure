@@ -14,8 +14,6 @@ public class Main {
 
         System.out.printf("stack size : %d\n", st.size());
 
-        st.List();
-
         System.out.println("stack isEmpty : "+ st.isEmpty());
 
 

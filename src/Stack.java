@@ -21,14 +21,6 @@ public class Stack {
         st[cursor--] = 0;
     }
 
-    public void List() {
-        StringBuilder str = new StringBuilder();
-        for (int i = 0; i < cursor; i++) {
-            str.append(st[i]).append(",");
-        }
-        System.out.println(str);
-    }
-
     public int size() {
         return cursor;
     }
