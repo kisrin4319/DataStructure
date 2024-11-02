@@ -19,8 +19,11 @@ public class Main {
 //        BubbleSort bs = new BubbleSort();
 //        bs.bubbleSort();
 
-        SelectionSort ss = new SelectionSort();
-        ss.selectionSort();
+//        SelectionSort ss = new SelectionSort();
+//        ss.selectionSort();
+
+        InsertionSort is = new InsertionSort();
+        is.insertionSort();
 
 
 
