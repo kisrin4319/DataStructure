@@ -16,10 +16,11 @@ public class Main {
 //
 //        System.out.println("stack isEmpty : "+ st.isEmpty());
 
+//        BubbleSort bs = new BubbleSort();
+//        bs.bubbleSort();
 
-        BubbleSort bs = new BubbleSort();
-
-        bs.bubbleSort();
+        SelectionSort ss = new SelectionSort();
+        ss.selectionSort();
 
 
 
